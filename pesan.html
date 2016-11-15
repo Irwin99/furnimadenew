@@ -113,13 +113,13 @@ $(document).ready(function(){
 </nav>
 <div class="container" style="margin-bottom:70px">
   <div class="modal-title text-center" style="margin-bottom:25px">
-        Profil
+        Pesan
   </div>
   <div class="row text-center">
     <div class="col-md-3">
       <ul class="member-sidebar text-left" id="member-sidebar" style="list-style:none">
         <li>
-          <a class="active" href="#"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
+          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
         </li>
         <li>
           <a href="profile.html"><i class="fa fa-envelope-open" aria-hidden="true"></i> Pesan</a>
@@ -128,48 +128,54 @@ $(document).ready(function(){
           <a href="profile.html"><i class="fa fa-history" aria-hidden="true"></i> Riwayat Order</a>
         </li>
         <li>
-          <a href="ChangePassword.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Desain</a>
+          <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Desain</a>
         </li>
         <li>
-          <a href="certified.html"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a>
+          <a class="active"  href="ganti_password.html"><i class="fa fa-key" aria-hidden="true"></i>Pesan</a>
         </li>
       </ul>
     </div>
-    <div class="col-md-8 form-group form-impian">
+    <div class="col-md-8 form-group form-impian table-responsive">
       <div class="row">
       </div>
-      <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Nama">
-        </div>
-        <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Email">
-        </div>
-        <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon"><i class="fa fa-home fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Alamat">
-        </div>
-        <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon"><i class="fa fa-mobile-phone fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Phone Number">
-        </div>
-        <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="About Me">
-        </div>
-        <div class="input-group margin-bottom-sm form-group">
-          Gender: 
-          <label class="radio-inline">
-            <input type="radio" name="gender" value="1" checked>
-            Male
-          </label>
-          <label class="radio-inline">
-            <input type="radio" name="gender" value="1">
-            Female
-          </label>
-        </div>
-        <button class="btn btn-md form-control fur-btn-primary" style="border-radius:0px">Save Profile</button>
+      <table class="table table-striped profile" style="border:1px solid #ddd">
+        <thead> 
+          <tr>
+            <td>Pengirim</td>
+            <td style="padding:0px 50px 0px 50px">Tanggal Kirim</td>
+            <td>Isi Pesan</td>
+            <td style="padding:0px 50px 0px 50px"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>haha@gmail.com</td>
+            <td>15 Oktober 2016</td>
+            <td>Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet</td>
+            <td>
+              <button class="btn btn-default dropdown-toggle">
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class="btn btn-default dropdown-toggle">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>hehe@gmail.com</td>
+            <td>15 Oktober 2016</td>
+            <td>Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet</td>
+            <td style="padding-top:30px">
+              <button class="btn btn-default dropdown-toggle">
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class="btn btn-default dropdown-toggle">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+  </table>
     </div>
     <div class="col-md-1"></div>
   </div>

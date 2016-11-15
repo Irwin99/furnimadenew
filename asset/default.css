@@ -210,3 +210,17 @@ body, html{
 	padding:3px 13px 5px 5px;
 	border-right:1px solid #eee;
 }
+.profile button, .profile button:hover, .profile button:active {
+    border-radius: 0;
+    background-color: #fff;
+    border-color: #f2bb00;
+    color: #333;
+    font-family: MyriadProCond;
+    /*padding:5px 5px 5px 5px;*/
+}
+.profile button {
+    color: #fff;
+    background-color: #f2bb00;
+    border-color: #f2bb00;
+    margin-top:5px;
+}
