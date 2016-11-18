@@ -113,31 +113,12 @@ $(document).ready(function(){
 </nav>
 <div class="container" style="margin-bottom:70px">
   <div class="modal-title text-center" style="margin-bottom:25px">
-        Keranjang Belanjaan
+       <i class="fa fa-shopping-cart" aria-hidden="true"></i> Keranjang Belanjaan
   </div>
-  <div class="row text-center">
-    <div class="col-md-3">
-      <ul class="member-sidebar text-left" id="member-sidebar" style="list-style:none">
-        <li>
-          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
-        </li>
-        <li>
-          <a href="profile.html"><i class="fa fa-envelope-open" aria-hidden="true"></i> Pesan</a>
-        </li>
-        <li>
-          <a href="profile.html"><i class="fa fa-history" aria-hidden="true"></i> Riwayat Order</a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Desain</a>
-        </li>
-        <li>
-          <a class="active"  href="ganti_password.html"><i class="fa fa-key" aria-hidden="true"></i>Pesan</a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-8 form-group form-impian table-responsive">
+
       <div class="row">
-      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
       <table class="table table-striped profile" style="border:1px solid #ddd">
         <thead> 
           <tr>
@@ -172,7 +153,7 @@ $(document).ready(function(){
           </tr>
           <tr>
             <td>2</td>
-            <td>
+            <td class="text-center">
               Sofa Ketje<br/>
               <img height="100px" src="asset/images/sofa1.jpg">
             </td>
@@ -238,8 +219,26 @@ $(document).ready(function(){
           </tfoot> 
         </tbody>
   </table>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-md form-control fur-btn-primary" style="margin-top:10px" href="#" role="button" type="submit">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i> Kembali Berbelanja
+      </a>
     </div>
-    <div class="col-md-1"></div>
+    <div class="col-md-4">
+      <a class="btn btn-md form-control fur-btn-primary" style="margin-top:10px" href="#" role="button" type="submit">
+              <i class="fa fa-close" aria-hidden="true"></i> Kosongkan Keranjang
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a class="btn btn-md form-control fur-btn-primary" style="margin-top:10px" href="#" role="button" type="submit">
+          Checkout <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+  <div class="col-md-1"></div>
+  </div>
   </div>
 </div>
 
