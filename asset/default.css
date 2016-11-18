@@ -227,3 +227,17 @@ body, html{
 .fr{
 	font-size:17px;
 }
+.title-info{
+	font-size:16px;
+	color:#fff;
+	background-color:#f2bb00;
+	padding:17px 0px 17px 0px;
+	margin-bottom: 20px;
+}
+.pembayaran{
+	font-size:15px;
+	margin-bottom: 20px
+}
+.form-control{
+	border-radius: 0px;
+}
